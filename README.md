@@ -1,5 +1,5 @@
 mightymarabu.github.io
-# Naturschwimmbad Niesteal
+# Naturschwimmbad Niestetal
 
 ## 27.Oktober 2020
 Anwesend sind: Doris, Gerda, _housereef_, Sebastian, Ulli, Yvonne
@@ -16,5 +16,7 @@ Anwesend sind: Doris, Gerda, _housereef_, Sebastian, Ulli, Yvonne
   * Email
   * Signal, Telegram, WhatsApp ...
   * Github ?
+* Tools
+  * Kontoverwaltungssoftware ?
 * ...
 
