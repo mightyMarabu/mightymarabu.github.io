@@ -8,5 +8,5 @@ Naturschwimmbad Niesteal
   * Domain mieten
   * Webspace
 
-* [BSP](_index.html)
+* [BSP](index.html)
 
