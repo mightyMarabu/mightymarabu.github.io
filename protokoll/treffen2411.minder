@@ -1,364 +1,473 @@
 <?xml version="1.0"?>
-<minder>
-  <theme name="Default" index="9"/>
+<minder version="1.11.3">
+  <theme name="default" label="Default" index="-1"/>
   <styles>
-    <style level="0" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="1" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="2" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="3" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="4" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="5" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="6" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="7" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="8" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="9" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
-    <style level="10" isset="true" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10"/>
+    <style level="0" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="rounded" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="1" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="2" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="3" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="4" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="5" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="6" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="7" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="8" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="9" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
+    <style level="10" isset="true" branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true" connectiondash="dotted" connectionlwidth="2" connectionarrow="fromto" connectionpadding="3" connectionfont="Sans 10" connectiontwidth="100"/>
   </styles>
-  <drawarea x="-644.28033447265625" y="135.7608032226558" scale="0.5"/>
+  <drawarea x="-120.28033447265614" y="544.42746988932277" scale="1.5"/>
   <images/>
   <nodes>
-    <node id="0" posx="413" posy="-83.999999999999545" maxwidth="200" width="85" height="46" side="left" fold="false" treesize="1978.0000000000005" layout="Horizontal">
-      <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-      <nodename>24.11</nodename>
+    <node id="0" posx="-111.00000000000011" posy="-492.6666666666672" width="85" height="46" side="left" fold="false" treesize="2054" layout="Horizontal" group="false">
+      <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+      <nodename posx="-81.000000000000114" posy="-478.6666666666672" maxwidth="200">
+        <text data="24.11"/>
+      </nodename>
       <nodenote></nodenote>
       <nodes>
-        <node id="2" posx="582" posy="-761.99999999999955" maxwidth="200" width="113" height="64" side="right" fold="false" treesize="639.99999999999977" color="#c6262e" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>Aufgaben
-27.10</nodename>
+        <node id="1" posx="57.999999999999886" posy="-1204.4166666666656" width="113" height="64" side="right" fold="false" treesize="639.99999999999977" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="87.999999999999886" posy="-1190.4166666666656" maxwidth="200">
+            <text data="Aufgaben&#10;27.10"/>
+          </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="4" posx="779" posy="-1041.0000000000002" maxwidth="200" width="109" height="46" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Kontakte</nodename>
+            <node id="2" posx="254.99999999999989" posy="-1483.4166666666667" width="109" height="46" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-1469.4166666666667" maxwidth="200">
+                <text data="Kontakte"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="6" posx="972.00000000000023" posy="-1050.0000000000007" maxwidth="200" width="208" height="64" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>SKG (Doris &#xFC;bernimmt das), Ulli geht mit.</nodename>
+                <node id="3" posx="448.00000000000011" posy="-1492.4166666666672" width="208" height="64" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="478.00000000000011" posy="-1478.4166666666672" maxwidth="200">
+                    <text data="SKG (Doris &#xFC;bernimmt das), Ulli geht mit."/>
+                  </nodename>
                   <nodenote></nodenote>
                   <nodes>
-                    <node id="166" posx="1264" posy="-1050.0000000000007" maxwidth="200" width="189" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-                      <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                      <nodename>Kontakt hergestellt.
-Coronapause</nodename>
+                    <node id="4" posx="740.00000000000057" posy="-1492.4166666666672" width="189" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename posx="770.00000000000057" posy="-1478.4166666666672" maxwidth="200">
+                        <text data="Kontakt hergestellt.&#10;Coronapause"/>
+                      </nodename>
                       <nodenote></nodenote>
                     </node>
                   </nodes>
                 </node>
               </nodes>
             </node>
-            <node id="8" posx="779" posy="-986.00000000000068" maxwidth="200" width="223" height="82" side="right" fold="false" treesize="82" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Protokoll der Gr&#xFC;ndungsversammlung vom 8.10 	</nodename>
+            <node id="5" posx="254.99999999999989" posy="-1428.4166666666667" width="223" height="82" side="right" fold="false" treesize="82" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-1414.4166666666667" maxwidth="200">
+                <text data="Protokoll der Gr&#xFC;ndungsversammlung vom 8.10 &#9;"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="10" posx="1086" posy="-977.00000000000068" maxwidth="200" width="182" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>wird per Mail rumgeschickt (Ulli)</nodename>
+                <node id="6" posx="561.99999999999989" posy="-1419.4166666666667" width="182" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="591.99999999999989" posy="-1405.4166666666667" maxwidth="200">
+                    <text data="wird per Mail rumgeschickt (Ulli)"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
-            <node id="12" posx="779" posy="-863.00000000000068" maxwidth="200" width="148" height="46" side="right" fold="false" treesize="128" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Ortsbegehung</nodename>
+            <node id="7" posx="254.99999999999989" posy="-1305.4166666666667" width="148" height="46" side="right" fold="false" treesize="128" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-1291.4166666666667" maxwidth="200">
+                <text data="Ortsbegehung"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="14" posx="1027" posy="-904.00000000000045" maxwidth="200" width="130" height="64" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Donnerstag !!
-Termin (Ulli)</nodename>
+                <node id="8" posx="502.99999999999989" posy="-1346.4166666666667" width="130" height="64" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="516.99999999999989" posy="-1332.4166666666667" maxwidth="200">
+                    <text data="Donnerstag !!&#10;Termin (Ulli)"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
-                <node id="16" posx="1011" posy="-831" maxwidth="200" width="94" height="46" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Freitag</nodename>
+                <node id="9" posx="486.99999999999989" posy="-1273.4166666666663" width="94" height="46" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="516.99999999999989" posy="-1259.4166666666663" maxwidth="200">
+                    <text data="Freitag"/>
+                  </nodename>
                   <nodenote></nodenote>
                   <nodes>
-                    <node id="18" posx="1189" posy="-840.00000000000045" maxwidth="200" width="148" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-                      <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                      <nodename>13. November
-13.30 Uhr</nodename>
+                    <node id="10" posx="665.00000000000034" posy="-1282.4166666666667" width="148" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename posx="695.00000000000034" posy="-1268.4166666666667" maxwidth="200">
+                        <text data="13. November&#10;13.30 Uhr">
+                          <color>
+                            <range start="0" end="3" extra="rgb(255,0,0)"/>
+                          </color>
+                        </text>
+                      </nodename>
                       <nodenote></nodenote>
                     </node>
                   </nodes>
                 </node>
               </nodes>
             </node>
-            <node id="20" posx="779" posy="-775.99999999999955" maxwidth="200" width="161" height="64" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Kontoer&#xF6;ffnung 
-(Gerda + Ulli)</nodename>
+            <node id="11" posx="254.99999999999989" posy="-1218.4166666666656" width="161" height="64" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-1204.4166666666656" maxwidth="200">
+                <text data="Kontoer&#xF6;ffnung &#10;(Gerda + Ulli)"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="22" posx="1024" posy="-766.99999999999955" maxwidth="200" width="140" height="46" task="1" side="right" fold="false" treesize="46" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>SEPA-Mandat</nodename>
+                <node id="12" posx="499.99999999999989" posy="-1209.4166666666656" width="140" height="46" task="1" side="right" fold="false" treesize="46" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="529.99999999999989" posy="-1195.4166666666656" maxwidth="200">
+                    <text data="SEPA-Mandat"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
-            <node id="24" posx="779" posy="-712" maxwidth="200" width="220" height="82" side="right" fold="false" treesize="82" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Kontakt zum Verein Bad Harleshausen (Gemeinn&#xFC;tzigkeit)</nodename>
+            <node id="13" posx="254.99999999999989" posy="-1154.4166666666663" width="220" height="82" side="right" fold="false" treesize="82" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-1140.4166666666663" maxwidth="200">
+                <text data="Kontakt zum Verein Bad Harleshausen (Gemeinn&#xFC;tzigkeit)"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="168" posx="1082.9999999999995" posy="-694" maxwidth="200" width="185" height="46" task="1" side="right" fold="false" treesize="46" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Sind gemeinn&#xFC;tzig!</nodename>
+                <node id="14" posx="558.99999999999943" posy="-1136.4166666666663" width="185" height="46" task="1" side="right" fold="false" treesize="46" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="588.99999999999943" posy="-1122.4166666666663" maxwidth="200">
+                    <text data="Sind gemeinn&#xFC;tzig!"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
-            <node id="26" posx="779" posy="-630" maxwidth="200" width="228" height="64" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Mitgliedsbeitrag f&#xFC;r 2020 erheben.</nodename>
+            <node id="15" posx="254.99999999999989" posy="-1072.4166666666663" width="228" height="64" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-1058.4166666666663" maxwidth="200">
+                <text data="Mitgliedsbeitrag f&#xFC;r 2020 erheben."/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="167" posx="1090.9999999999995" posy="-620.99999999999977" maxwidth="200" width="187" height="46" task="1" side="right" fold="false" treesize="46" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>doch kein Beitrag...</nodename>
+                <node id="16" posx="566.99999999999943" posy="-1063.4166666666658" width="187" height="46" task="1" side="right" fold="false" treesize="46" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="596.99999999999943" posy="-1049.4166666666658" maxwidth="200">
+                    <text data="doch kein Beitrag..."/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
-            <node id="28" posx="779" posy="-543.00000000000045" maxwidth="200" width="127" height="46" side="right" fold="false" treesize="92" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Webauftritt</nodename>
+            <node id="17" posx="254.99999999999989" posy="-985.41666666666629" width="127" height="46" side="right" fold="false" treesize="92" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-971.41666666666629" maxwidth="200">
+                <text data="Webauftritt"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="30" posx="990.00000000000023" posy="-566.00000000000045" maxwidth="200" width="158" height="46" task="0" side="right" fold="false" treesize="46" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Domain sichern</nodename>
+                <node id="18" posx="465.99999999999989" posy="-1008.4166666666663" width="158" height="46" task="0" side="right" fold="false" treesize="46" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="495.99999999999989" posy="-994.41666666666629" maxwidth="200">
+                    <text data="Domain sichern"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
-                <node id="32" posx="990.00000000000023" posy="-520.00000000000011" maxwidth="200" width="119" height="46" task="0" side="right" fold="false" treesize="46" color="#c6262e" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Webspace</nodename>
+                <node id="19" posx="465.99999999999989" posy="-962.41666666666629" width="119" height="46" task="0" side="right" fold="false" treesize="46" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="495.99999999999989" posy="-948.41666666666629" maxwidth="200">
+                    <text data="Webspace"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
-            <node id="34" posx="779" posy="-474.00000000000011" maxwidth="200" width="165" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Beitragsordnung verschriftlichen</nodename>
+            <node id="20" posx="254.99999999999989" posy="-916.41666666666606" width="165" height="64" task="1" side="right" fold="false" treesize="64" color="#c6262e" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="284.99999999999989" posy="-902.41666666666606" maxwidth="200">
+                <text data="Beitragsordnung verschriftlichen"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
           </nodes>
         </node>
-        <node id="173" posx="582" posy="-387" maxwidth="200" width="182" height="64" side="right" fold="false" treesize="110" color="#f9c440" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>8. Vereinsarbeiten / -aktionen</nodename>
+        <node id="24" posx="57.999999999999886" posy="-797.41666666666549" width="134" height="46" side="right" fold="false" treesize="156" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="71.999999999999886" posy="-783.41666666666549" maxwidth="200">
+            <text data="Kassensystem"/>
+          </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="174" posx="864" posy="-409.99999999999977" maxwidth="200" width="182" height="64" side="right" fold="false" treesize="64" color="#f9c440" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>An- und Abbaden
-incl. 'Gartenarbeiten'</nodename>
-              <nodenote></nodenote>
-            </node>
-            <node id="175" posx="864" posy="-346" maxwidth="200" width="116" height="46" side="right" fold="false" treesize="46" color="#f9c440" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Umwelttag?</nodename>
-              <nodenote></nodenote>
-            </node>
-          </nodes>
-        </node>
-        <node id="176" posx="582" posy="-244.99999999999909" maxwidth="200" width="134" height="46" side="right" fold="false" treesize="156" color="#68b723" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>Kassensystem</nodename>
-          <nodenote></nodenote>
-          <nodes>
-            <node id="177" posx="816" posy="-290.99999999999909" maxwidth="200" width="84" height="46" side="right" fold="false" treesize="64" color="#68b723" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>60 &#x20AC; / a</nodename>
+            <node id="25" posx="291.99999999999989" posy="-843.41666666666526" width="84" height="46" side="right" fold="false" treesize="64" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="305.99999999999989" posy="-829.41666666666526" maxwidth="200">
+                <text data="60 &#x20AC; / a"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="180" posx="999.99999999999955" posy="-299.99999999999909" maxwidth="200" width="178" height="64" side="right" fold="false" treesize="64" color="#68b723" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>This one, it shall be!
-ab 1.1.2021</nodename>
+                <node id="26" posx="475.99999999999943" posy="-852.41666666666526" width="178" height="64" side="right" fold="false" treesize="64" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="489.99999999999943" posy="-838.41666666666526" maxwidth="200">
+                    <text data="This one, it shall be!&#10;ab 1.1.2021"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
-            <node id="178" posx="816" posy="-235.99999999999909" maxwidth="200" width="136" height="46" side="right" fold="false" treesize="46" color="#68b723" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>einmalig 223 &#x20AC;</nodename>
+            <node id="27" posx="291.99999999999989" posy="-788.41666666666549" width="136" height="46" side="right" fold="false" treesize="46" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="305.99999999999989" posy="-774.41666666666549" maxwidth="200">
+                <text data="einmalig 223 &#x20AC;"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="179" posx="816" posy="-189.99999999999909" maxwidth="200" width="173" height="46" side="right" fold="false" treesize="46" color="#68b723" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>kostenlose Variante</nodename>
-              <nodenote></nodenote>
-            </node>
-          </nodes>
-        </node>
-        <node id="181" posx="582" posy="-143.99999999999909" maxwidth="200" width="163" height="46" side="right" fold="false" treesize="46" color="#3689e6" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>3. Vereinsregister </nodename>
-          <nodenote></nodenote>
-          <nodes>
-            <node id="182" posx="845" posy="-143.99999999999909" maxwidth="200" width="150" height="46" side="right" fold="false" treesize="46" color="#3689e6" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Eintragung l&#xE4;uft.</nodename>
+            <node id="28" posx="291.99999999999989" posy="-742.41666666666504" width="173" height="46" side="right" fold="false" treesize="46" color="#68b723" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="305.99999999999989" posy="-728.41666666666504" maxwidth="200">
+                <text data="kostenlose Variante"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
           </nodes>
         </node>
-        <node id="183" posx="582" posy="131.00000000000045" maxwidth="200" width="185" height="46" side="right" fold="false" treesize="503.9999999999992" color="#7a36b1" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>6. Wer macht was?</nodename>
+        <node id="29" posx="57.999999999999886" posy="-696.41666666666526" width="163" height="46" side="right" fold="false" treesize="46" color="#3689e6" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="71.999999999999886" posy="-682.41666666666526" maxwidth="200">
+            <text data="3. Vereinsregister ">
+              <color>
+                <range start="0" end="2" extra="rgb(255,0,0)"/>
+              </color>
+            </text>
+          </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="184" posx="867" posy="-47.999999999999318" maxwidth="200" width="109" height="46" side="right" fold="false" treesize="145.99999999999997" color="#7a36b1" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Vorstand</nodename>
+            <node id="30" posx="320.99999999999989" posy="-696.41666666666526" width="150" height="46" side="right" fold="false" treesize="46" color="#3689e6" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="334.99999999999989" posy="-682.41666666666526" maxwidth="200">
+                <text data="Eintragung l&#xE4;uft."/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+          </nodes>
+        </node>
+        <node id="31" posx="57.999999999999886" posy="-359.66666666666629" width="169" height="46" side="right" fold="false" treesize="627.49999999999852" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="71.999999999999886" posy="-345.66666666666629" maxwidth="200">
+            <text data="6. Wer macht was?">
+              <color>
+                <range start="0" end="2" extra="rgb(255,0,0)"/>
+              </color>
+            </text>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="32" posx="326.99999999999989" posy="-598.16666666666606" width="93" height="46" side="right" fold="false" treesize="145.99999999999977" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="340.99999999999989" posy="-584.16666666666606" maxwidth="200">
+                <text data="Vorstand"/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="198" posx="1075.9999999999995" posy="-97.999999999999318" maxwidth="200" width="165" height="64" side="right" fold="false" treesize="64" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Ausarbeitung Beitragsordnung</nodename>
+                <node id="33" posx="519.99999999999943" posy="-648.16666666666583" width="149" height="64" side="right" fold="false" treesize="64" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="533.99999999999943" posy="-634.16666666666583" maxwidth="200">
+                    <text data="Ausarbeitung Beitragsordnung"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="35" posx="519.99999999999943" posy="-584.16666666666606" width="165" height="82" side="right" fold="false" treesize="82" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="533.99999999999943" posy="-570.16666666666606" maxwidth="200">
+                    <text data="Organisation von Veranstaltungen + Fundraising"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="36" posx="326.99999999999989" posy="-502.16666666666731" width="77" height="46" side="right" fold="false" treesize="46" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="340.99999999999989" posy="-488.16666666666731" maxwidth="200">
+                <text data="Presse"/>
+              </nodename>
+              <nodenote></nodenote>
+            </node>
+            <node id="37" posx="326.99999999999989" posy="-447.1666666666664" width="71" height="46" side="right" fold="false" treesize="64" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="340.99999999999989" posy="-433.1666666666664" maxwidth="200">
+                <text data="Kasse"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="38" posx="497.99999999999943" posy="-456.1666666666664" width="217" height="64" side="right" fold="false" treesize="64" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="511.99999999999943" posy="-442.1666666666664" maxwidth="200">
+                    <text data="Ausstellen von Mitgliedsbescheinigungen"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="39" posx="326.99999999999989" posy="-369.16666666666731" width="119" height="46" side="right" fold="false" treesize="91.999999999999716" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="340.99999999999989" posy="-355.16666666666731" maxwidth="200">
+                <text data="Schriftf&#xFC;hrer"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="40" posx="545.99999999999943" posy="-392.16666666666731" width="137" height="46" side="right" fold="false" treesize="46" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="559.99999999999943" posy="-378.16666666666731" maxwidth="200">
+                    <text data="Internetauftritt"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="41" posx="545.99999999999943" posy="-346.16666666666737" width="92" height="46" side="right" fold="false" treesize="46" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="559.99999999999943" posy="-332.16666666666737" maxwidth="200">
+                    <text data="Protokoll"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+              </nodes>
+            </node>
+            <node id="42" posx="326.99999999999989" posy="-185.66666666666731" width="101" height="46" side="right" fold="false" treesize="275" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="340.99999999999989" posy="-171.66666666666731" maxwidth="200">
+                <text data="Mitglieder"/>
+              </nodename>
+              <nodenote></nodenote>
+              <nodes>
+                <node id="43" posx="527.99999999999943" posy="-295.66666666666737" width="158" height="46" side="right" fold="false" treesize="46" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="541.99999999999943" posy="-281.66666666666737" maxwidth="200">
+                    <text data="Kassenh&#xE4;uschen?"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="44" posx="527.99999999999943" posy="-249.66666666666731" width="188" height="64" side="right" fold="false" treesize="64" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="541.99999999999943" posy="-235.66666666666731" maxwidth="200">
+                    <text data="Aktionen (Aufr&#xE4;umen, Renovieren usw.)"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="45" posx="527.99999999999943" posy="-185.66666666666731" width="227" height="46" side="right" fold="false" treesize="46" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="541.99999999999943" posy="-171.66666666666731" maxwidth="200">
+                    <text data="(Mitglieder-)Werbeaktionen"/>
+                  </nodename>
+                  <nodenote></nodenote>
+                </node>
+                <node id="21" posx="527.99999999999989" posy="-107.66666666666731" width="226" height="46" side="right" fold="false" treesize="110" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="541.99999999999989" posy="-93.666666666667311" maxwidth="200">
+                    <text data="Vereinsarbeiten / -aktionen"/>
+                  </nodename>
                   <nodenote></nodenote>
                   <nodes>
-                    <node id="206" posx="1340.9999999999995" posy="-97.999999999999318" maxwidth="200" width="205" height="64" task="0" side="right" fold="false" treesize="64" color="#7a36b1" layout="Horizontal">
-                      <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                      <nodename>Was ist eine Firmenmitgliedschaft?</nodename>
+                    <node id="22" posx="853.99999999999989" posy="-139.66666666666731" width="182" height="64" side="right" fold="false" treesize="64" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename posx="867.99999999999989" posy="-125.66666666666731" maxwidth="200">
+                        <text data="An- und Abbaden&#10;incl. 'Gartenarbeiten'"/>
+                      </nodename>
+                      <nodenote></nodenote>
+                    </node>
+                    <node id="23" posx="853.99999999999989" posy="-75.666666666667311" width="116" height="46" side="right" fold="false" treesize="46" color="#7a36b1" colorroot="false" layout="Horizontal" group="false">
+                      <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                      <nodename posx="867.99999999999989" posy="-61.666666666667311" maxwidth="200">
+                        <text data="Umwelttag?"/>
+                      </nodename>
                       <nodenote></nodenote>
                     </node>
                   </nodes>
                 </node>
-                <node id="199" posx="1075.9999999999995" posy="-33.999999999999318" maxwidth="200" width="165" height="82" side="right" fold="false" treesize="82" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Organisation von Veranstaltungen + Fundraising</nodename>
-                  <nodenote></nodenote>
-                </node>
               </nodes>
             </node>
-            <node id="185" posx="867" posy="48.000000000000455" maxwidth="200" width="77" height="46" side="right" fold="false" treesize="46" color="#7a36b1" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Presse</nodename>
-              <nodenote></nodenote>
-            </node>
-            <node id="186" posx="867" posy="103.00000000000045" maxwidth="200" width="71" height="46" side="right" fold="false" treesize="64" color="#7a36b1" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Kasse</nodename>
-              <nodenote></nodenote>
-              <nodes>
-                <node id="189" posx="1037.9999999999995" posy="94.000000000000455" maxwidth="200" width="217" height="64" side="right" fold="false" treesize="64" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Ausstellen von Mitgliedsbescheinigungen</nodename>
-                  <nodenote></nodenote>
-                </node>
-              </nodes>
-            </node>
-            <node id="187" posx="867" posy="181.00000000000045" maxwidth="200" width="119" height="46" side="right" fold="false" treesize="91.999999999999716" color="#7a36b1" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Schriftf&#xFC;hrer</nodename>
+          </nodes>
+        </node>
+        <node id="46" posx="57.999999999999886" posy="0.083333333332689108" width="169" height="46" side="right" fold="false" treesize="92" color="#715344" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="71.999999999999886" posy="14.083333333332689" maxwidth="200">
+            <text data="Veranstaltungsidee"/>
+          </nodename>
+          <nodenote></nodenote>
+          <nodes>
+            <node id="47" posx="326.99999999999989" posy="0.083333333332689108" width="65" height="46" side="right" fold="false" treesize="92" color="#715344" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="340.99999999999989" posy="14.083333333332689" maxwidth="200">
+                <text data="Kino "/>
+              </nodename>
               <nodenote></nodenote>
               <nodes>
-                <node id="188" posx="1085.9999999999995" posy="158.00000000000045" maxwidth="200" width="137" height="46" side="right" fold="false" treesize="46" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Internetauftritt</nodename>
+                <node id="48" posx="491.99999999999989" posy="-22.916666666667311" width="79" height="46" side="right" fold="false" treesize="46" color="#715344" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="505.99999999999989" posy="-8.9166666666673109" maxwidth="200">
+                    <text data="Super8"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
-                <node id="197" posx="1085.9999999999995" posy="204" maxwidth="200" width="92" height="46" side="right" fold="false" treesize="46" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Protokoll</nodename>
-                  <nodenote></nodenote>
-                </node>
-              </nodes>
-            </node>
-            <node id="192" posx="867" posy="305" maxwidth="200" width="101" height="46" side="right" fold="false" treesize="156" color="#7a36b1" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Mitglieder</nodename>
-              <nodenote></nodenote>
-              <nodes>
-                <node id="193" posx="1067.9999999999995" posy="250" maxwidth="200" width="158" height="46" side="right" fold="false" treesize="46" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Kassenh&#xE4;uschen?</nodename>
-                  <nodenote></nodenote>
-                </node>
-                <node id="194" posx="1067.9999999999995" posy="296" maxwidth="200" width="188" height="64" side="right" fold="false" treesize="64" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Aktionen (Aufr&#xE4;umen, Renovieren usw.)</nodename>
-                  <nodenote></nodenote>
-                </node>
-                <node id="196" posx="1067.9999999999995" posy="360" maxwidth="200" width="227" height="46" side="right" fold="false" treesize="46" color="#7a36b1" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>(Mitglieder-)Werbeaktionen</nodename>
+                <node id="49" posx="491.99999999999989" posy="23.083333333332689" width="207" height="46" side="right" fold="false" treesize="46" color="#715344" colorroot="false" layout="Horizontal" group="false">
+                  <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+                  <nodename posx="505.99999999999989" posy="37.083333333332689" maxwidth="200">
+                    <text data="Stummfilm + Improband"/>
+                  </nodename>
                   <nodenote></nodenote>
                 </node>
               </nodes>
             </node>
           </nodes>
         </node>
-        <node id="201" posx="632.1446533203125" posy="297.35195922851517" maxwidth="200" width="169" height="46" side="right" fold="false" treesize="92" color="#715344" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>Veranstaltungsidee</nodename>
+        <node id="50" posx="57.999999999999886" posy="270.08333333333167" width="206" height="82" side="right" fold="false" treesize="484" color="#333333" colorroot="false" layout="Horizontal" group="false">
+          <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+          <nodename posx="87.999999999999886" posy="284.08333333333167" maxwidth="200">
+            <text data="Gespr&#xE4;ch mit der Gemeinde&#10;/ Br&#xFC;ckmann / Bauhof."/>
+          </nodename>
           <nodenote></nodenote>
           <nodes>
-            <node id="202" posx="901.1446533203125" posy="297.35195922851517" maxwidth="200" width="65" height="46" side="right" fold="false" treesize="92" color="#715344" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Kino </nodename>
-              <nodenote></nodenote>
-              <nodes>
-                <node id="203" posx="1066.144653320312" posy="274.35195922851517" maxwidth="200" width="79" height="46" side="right" fold="false" treesize="46" color="#715344" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Super8</nodename>
-                  <nodenote></nodenote>
-                </node>
-                <node id="204" posx="1066.144653320312" posy="320.35195922851562" maxwidth="200" width="207" height="46" side="right" fold="false" treesize="46" color="#715344" layout="Horizontal">
-                  <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-                  <nodename>Stummfilm + Improband</nodename>
-                  <nodenote></nodenote>
-                </node>
-              </nodes>
-            </node>
-          </nodes>
-        </node>
-        <node id="171" posx="582" posy="663" maxwidth="200" width="206" height="100" side="right" fold="false" treesize="430" color="#333333" layout="Horizontal">
-          <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-          <nodename>Gespr&#xE4;ch mit der Gemeinde
-/ Br&#xFC;ckmann / Bauhof.
-Ulli ruft Marcel an.</nodename>
-          <nodenote></nodenote>
-          <nodes>
-            <node id="172" posx="872" posy="498" maxwidth="200" width="206" height="46" task="0" side="right" fold="false" treesize="46" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Thema Wasserchemie</nodename>
+            <node id="51" posx="347.99999999999989" posy="69.083333333332575" width="206" height="46" task="0" side="right" fold="false" treesize="46" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="83.083333333332575" maxwidth="200">
+                <text data="Thema Wasserchemie"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="169" posx="872" posy="544" maxwidth="200" width="161" height="64" task="0" side="right" fold="false" treesize="64" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Zukunft der R&#xE4;umlichkeiten.</nodename>
+            <node id="52" posx="347.99999999999989" posy="115.08333333333167" width="161" height="64" task="0" side="right" fold="false" treesize="64" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="129.08333333333167" maxwidth="200">
+                <text data="Zukunft der R&#xE4;umlichkeiten."/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="190" posx="872" posy="608" maxwidth="200" width="223" height="100" task="0" side="right" fold="false" treesize="100" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Wer verkauft die Saisonkarten?
-Vorlage Mitgliedsbescheinigung?</nodename>
+            <node id="53" posx="347.99999999999989" posy="179.08333333333167" width="223" height="100" task="0" side="right" fold="false" treesize="100" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="193.08333333333167" maxwidth="200">
+                <text data="Wer verkauft die Saisonkarten?&#10;Vorlage Mitgliedsbescheinigung?"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="191" posx="872" posy="708.00000000000045" maxwidth="200" width="213" height="64" task="0" side="right" fold="false" treesize="64" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Mitglied werden an der Schwimmbadkasse?</nodename>
+            <node id="54" posx="347.99999999999989" posy="279.08333333333258" width="213" height="64" task="0" side="right" fold="false" treesize="64" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="293.08333333333258" maxwidth="200">
+                <text data="Mitglied werden an der Schwimmbadkasse?"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="195" posx="872" posy="772.00000000000091" maxwidth="200" width="174" height="64" task="0" side="right" fold="false" treesize="64" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Wer besetzt das Kassenh&#xE4;uschen?</nodename>
+            <node id="55" posx="347.99999999999989" posy="343.08333333333348" width="174" height="64" task="0" side="right" fold="false" treesize="64" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="357.08333333333348" maxwidth="200">
+                <text data="Wer besetzt das Kassenh&#xE4;uschen?"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="200" posx="872" posy="836.00000000000091" maxwidth="200" width="109" height="46" task="0" side="right" fold="false" treesize="46" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Werbung</nodename>
+            <node id="56" posx="347.99999999999989" posy="407.08333333333348" width="227" height="100" task="0" side="right" fold="false" treesize="100" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="421.08333333333348" maxwidth="200">
+                <text data="Werbung - Darf auf dem gel&#xE4;nde geworben von Unterst&#xFC;tzern des Bades werden?"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
-            <node id="205" posx="872" posy="882" maxwidth="200" width="244" height="46" task="0" side="right" fold="false" treesize="46" color="#333333" layout="Horizontal">
-              <style linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
-              <nodename>Erweiterte &#xD6;ffnungszeiten?</nodename>
+            <node id="57" posx="347.99999999999989" posy="507.08333333333258" width="244" height="46" task="0" side="right" fold="false" treesize="46" color="#333333" colorroot="false" layout="Horizontal" group="false">
+              <style branchmargin="100" linktype="curved" linkwidth="4" linkarrow="false" linkdash="solid" nodeborder="underlined" nodewidth="200" nodeborderwidth="4" nodefill="false" nodemargin="8" nodepadding="6" nodefont="Sans 11" nodemarkup="true"/>
+              <nodename posx="377.99999999999989" posy="521.08333333333258" maxwidth="200">
+                <text data="Erweiterte &#xD6;ffnungszeiten?"/>
+              </nodename>
               <nodenote></nodenote>
             </node>
           </nodes>
@@ -366,4 +475,6 @@ Vorlage Mitgliedsbescheinigung?</nodename>
       </nodes>
     </node>
   </nodes>
+  <groups/>
+  <stickers/>
 </minder>
